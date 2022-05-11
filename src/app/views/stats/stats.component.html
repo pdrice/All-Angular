@@ -1,0 +1,15 @@
+<h1>Stats Component</h1>
+<hr>
+<div class="container">
+    <div class="row">
+      <div class="col" *ngFor="let stats of statics; let i =index">
+        <div class="value">
+            {{stats.value}}
+        </div>
+        <div class="label">
+            {{stats.label}}
+        </div>
+      </div>
+   
+    </div>
+  </div>
